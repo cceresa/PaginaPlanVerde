@@ -1,0 +1,704 @@
+body{
+	background: #ffffff;
+	
+}
+
+.logo{
+	width: 85px;
+	margin-bottom: 15px;
+}
+
+
+
+  .titulo{
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	
+  }
+
+  .parrafo{
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
+  }
+
+  .Mantenimiento{
+	color: #000;
+  }
+
+#tienda{
+	background: #0ACF83;
+}
+
+
+
+
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta el tamaño del video al contenedor */
+    z-index: -1; /* Coloca el video detrás del contenido */
+}
+
+.content {
+    text-align: center;
+    z-index: 1; /* Coloca el contenido encima del video */
+    color: #fff;
+}
+
+.principal{
+	background: none;
+	height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.vertical-centered-text {
+  -ms-display: flex;
+  display: flex;
+  /* alineacion vertical */
+  align-items: center;
+   /* alineacion horizontal */
+  justify-content: center;
+}
+
+.cta{
+	text-align: center;
+	
+}
+
+h1{
+	font-weight: 700;
+	font-size: 50px;
+	color: rgba(255,255,255,.7);
+}
+
+.orange{
+		background-color: rgba(255, 255, 255, 0.5); /* Color blanco con 50% de opacidad */
+	  }
+
+
+.nosotros{
+	width: 100%;
+	height: 90vh;
+	padding-top: 30px;
+	margin-bottom: 50px;
+	
+}
+.nosotros h1{
+	font-weight: 100;
+}
+.servicios{
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	color: #fff;
+}
+.servicios img{
+	width: 40%;
+	text-align: center;
+	color: #fff;
+}
+
+.servicios h1{
+	color: #fff;
+	font-weight: 100;
+}
+.servicios .images{
+	padding-top: 30px;
+}
+
+.images .col-md-3{
+	padding-top: 20px;
+
+}
+
+.servicios .h3{
+	font-size: 15rem;
+}
+.social{
+	text-align: center;
+}
+.social img{
+	width: 30%;
+	text-align: center;
+}
+
+
+
+#home {
+	color: white;
+}
+.col-xs-4{
+	text-align: center;
+}
+
+
+/*@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { }
+@media only screen and (min-width: 324px) and (max-width: 736px) {*/
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+  /* iPhone only */
+  /* Styles */
+  .off {
+    display: none !important;
+  }
+  .on {
+    display: block !important;
+  }
+  .col-md-2 {
+    width: 100%;
+  }
+  .social img{
+  	width: 100%;
+  }
+  .botonera li a {
+    font-size: 13px;
+}
+.nosotros{
+	height: 400px;
+	overflow: hidden;
+	padding-top: 15px;
+}
+#home{
+	padding-top: 65px;
+}
+
+h1{
+	font-size: 30px;
+}
+
+footer{
+	padding-top: 10px;
+}
+
+}
+
+/* Estilos para el nuevo div "tienda" */
+#tienda {
+    background-color: #ffffff; /* Color de fondo para distinguirlo */
+    padding: 100px; /* Ajusta el relleno según sea necesario */
+	width: 100%;
+	height: 50vh; 
+	
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+	margin-bottom: 1.5rem;
+	text-align: center;
+	
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+	margin-right: .75rem;
+	margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+  
+  /* Featurettes
+  ------------------------- */
+  .featurette{
+	color: #DEE8DE;
+  }
+
+  .featurette-divider1 {
+	margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+
+  }
+
+  .featurette-divider2 {
+	margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+	border: 1px solid black;
+  }
+  
+  /* Thin out the marketing headings */
+  /* rtl:begin:remove */
+  .featurette-heading {
+	letter-spacing: -.05rem;
+  }
+  
+
+	.btn-all {
+		color: #000;
+		font-family: "Montserrat", sans-serif;
+		font-weight: 600;
+		font-size: 1rem;
+		background-color: #0ACF83;
+		border: solid 2px #0ACF83;
+		align-self: flex-start;
+		padding: 0.3rem 1.5rem;
+	}
+	
+	.boton1{
+		font-family: "Montserrat", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		color: #fff;
+		font-weight: 600;
+		font-size: 1rem;
+		background-color: #0ACF83;
+		border: solid 2px #0ACF83;
+		align-self: flex-start;
+		padding: 0.3rem 1.5rem;
+		
+	}
+
+	.boton2{
+		color: #000;
+		font-family: "Montserrat", sans-serif;
+		font-weight: 600;
+		font-size: 1rem;
+		background-color: #0ACF83;
+		border: solid 2px #0ACF83;
+		align-self: flex-start;
+		padding: 0.3rem 1.5rem;
+	}
+	
+.icono_boton{
+	width: 1.5rem;
+	height: 1.5rem;
+	color:#eeeeee
+}
+	
+ .contenedor{
+	width: 90%;
+	margin: auto;
+
+ }
+
+.bordes-foto{
+	border-radius: 10px; /* Radio de 10 píxeles para bordes redondeados */
+		overflow: hidden; /* Oculta el exceso de la imagen que excede los bordes redondeados */
+	}
+	
+/* ---- ----- ----- Pelicula Principal ----- ----- ----- */
+.pelicula-principal {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/backdrop.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+.pelicula-principal .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+
+.pelicula-principal .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+
+.pelicula-principal .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+
+.pelicula-principal .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+
+.pelicula-principal .boton:hover {
+	background: #fff;
+	color: #000;
+}
+
+.pelicula-principal .boton i {
+	margin-right: 1.25em;
+}
+
+/* ---- ----- ----- Contenedor Titulo y Controles ----- ----- ----- */
+.contenedor-titulo-controles {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.contenedor-titulo-controles h3 {
+	color: #fff;
+	font-size: 30px;
+}
+
+.contenedor-titulo-controles .indicadores button {
+	background: #fff;
+	height: 3px;
+	width: 10px;
+	cursor: pointer;
+	border: none;
+	margin-right: 2px;
+}
+
+.contenedor-titulo-controles .indicadores button:hover,
+.contenedor-titulo-controles .indicadores button.activo {
+	background: rgb(23, 21, 21);
+}
+
+
+/* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
+.peliculas-recomendadas {
+	margin-bottom: 70px;
+}
+
+.peliculas-recomendadas .contenedor-principal {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda,
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+	position: absolute;
+	border: none;
+	background: rgba(0,0,0,0.3);
+	font-size: 40px;
+	height: 50%;
+	top: calc(50% - 25%);
+	line-height: 40px;
+	width: 50px;
+	color: #fff;
+	cursor: pointer;
+	z-index: 500;
+	transition: .2s ease all;
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda:hover,
+.peliculas-recomendadas .contenedor-principal .flecha-derecha:hover {
+	background: rgba(0,0,0, .9);
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda {
+	left: 0;
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+	right: 0;
+}
+
+/* ---- ----- ----- Carousel ----- ----- ----- */
+.peliculas-recomendadas .contenedor-carousel {
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula {
+	min-width: 20%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula.hover {
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula img {
+	width: 100%;
+	vertical-align: top;
+}
+
+/* ---- ----- ----- Media Queries ----- ----- ----- */
+@media screen and (max-width: 800px) {
+	header .logotipo {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+
+	header .contenedor {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.pelicula-principal {
+		font-size: 14px;
+	}
+
+	.pelicula-principal .descripcion {
+		max-width: 100%;
+	}
+
+	.peliculas-recomendadas .contenedor-carousel {
+		overflow: visible;
+	}
+
+	.peliculas-recomendadas .contenedor-carousel .carousel {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+	}
+
+	.peliculas-recomendadas .indicadores,
+	.peliculas-recomendadas .flecha-izquierda,
+	.peliculas-recomendadas .flecha-derecha {
+		display: none;
+	}
+}
+
+.columna {
+	display: flex;
+	justify-content: space-around;
+	
+	padding: 20px 0;
+	background: #eeeeee;
+}
+
+.columna div {
+	text-align: center;
+}
+
+/* Estilos para los iconos */
+.icono_banner {
+	font-size: 30px;
+	margin-bottom: 10px;
+	
+}
+
+/* Estilos para los títulos */
+.titulo_banner {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	font-family: "Bebas Neue", sans-serif;
+}
+
+
+
+/* Estilos para las descripciones */
+.descripcion {
+	font-size: 16px;
+}
+
+
+.sec_3{
+	margin-top: 4.5px;
+}
+
+.sec-form{
+
+		
+		background-color: #0ACF83;
+		padding: 5% 20%;
+		font-family: "Bebas Neue", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		h4 {
+			margin-top: 5rem;
+			margin-bottom: 1.5rem;
+			color: #fff;
+		}
+		label {
+			color: #505050;
+		}
+		.col-12 {
+			display: flex;
+			justify-content: center;
+			margin-top: 1.5rem;
+			.btn {
+				font-size: 1.25rem;
+				color: #ffffff;
+				font-family: "Bebas Neue", sans-serif;
+				font-weight: 600;
+				background-color: #0ACF83;
+				border: solid 2px #fff;
+				align-self: flex-start;
+				padding: 0.5rem 2rem;
+			}
+		}
+		#message {
+			resize: none;
+		}
+	}
+
+
+.formulario{
+	margin-top: 100 px;
+
+}
+
+.hojita2{
+	
+			margin-bottom: 1.5rem;
+			color: #fff;
+			font-size: 50px;
+			
+}
+			
+.hojita1{
+	float: right; /* Ubica el icono a la derecha */
+    margin-left: 10px; /* Añade un espacio a la izquierda del icono */
+	margin-top: 6rem;
+	color: #fff;
+			font-size: 50px;
+}
+
+/* FOOTER NUEVO */
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+  }
+
+  @media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+	  font-size: 3.5rem;
+	}
+  }
+
+  .b-example-divider {
+	width: 100%;
+	height: 3rem;
+	background-color: rgba(0, 0, 0, .1);
+	border: solid rgba(0, 0, 0, .15);
+	border-width: 1px 0;
+	box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+	flex-shrink: 0;
+	width: 1.5rem;
+	height: 100vh;
+  }
+
+  .bi {
+	vertical-align: -.125em;
+	fill: currentColor;
+  }
+
+  .nav-scroller {
+	position: relative;
+	z-index: 2;
+	height: 2.75rem;
+	overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+	display: flex;
+	flex-wrap: nowrap;
+	padding-bottom: 1rem;
+	margin-top: -1px;
+	overflow-x: auto;
+	text-align: center;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+  }
+
+ 
+
+  .bd-mode-toggle {
+	z-index: 1500;
+  }
+
+  .bd-mode-toggle .dropdown-menu .active .bi {
+	display: block !important;
+  }
+
+
+
+
+  
+  .pie_pagina {
+    width: 100%;
+    padding: 2.5rem 1rem;
+    background: #eeeeee;
+}
+
+#row_footer {
+    align-items: center;
+}
+
+
+.contact_info .icons_link {
+    color: #414141;
+}
+
+.contact_info .icons_link:hover, .contact_info .icons_link:active {
+    color: #0ACF83;
+}
+
+.icon_img {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 2rem;
+    margin-right: 0.5rem; /* Añadido un margen derecho para separar iconos y texto */
+}
+
+.icon_text {
+    font-size: 1rem;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 0.5rem; /* Añadido un margen inferior para separar elementos */
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Alinea los elementos al principio */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+}
+
+.icons_link {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px; /* Espacio entre los elementos */
+}
+
+.titulo-nav {
+    font-family: "Montserrat", sans-serif; /* Cambia la tipografía */
+    font-weight: 600; /* Puedes ajustar el peso de la fuente según tu preferencia */
+    font-size: 18px; /* Puedes ajustar el tamaño de la fuente según tu preferencia */
+}
+
+.bg-custom {
+    background-color: #ffffff; /* Color verde de ejemplo, puedes cambiarlo por el color que prefieras */
+}
+
+footer {
+    background-color: #ffffff; /* Reemplaza "your-color" con el color de fondo deseado */
+    color: #414141; /* Cambia el color del texto si es necesario para que se vea bien sobre el fondo */
+    padding: 20px; /* Ajusta el relleno según sea necesario */
+    text-align: center; /* Alinea el texto al centro si es necesario */
+}
